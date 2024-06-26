@@ -15,7 +15,7 @@ export const navabar = () => {
               height="24" 
               className="d-inline-block align-text-top" 
             />
-            Bootstrap
+            Bootstraps
           </a>
         </div>
       </nav>
