@@ -1,3 +1,9 @@
 import { navabar } from "./Components/Navbar";
+import { Listar } from "./Components/Listar";
 
-<navabar/>
+
+
+export function App (){
+    <navabar/>
+    Listar();
+}
