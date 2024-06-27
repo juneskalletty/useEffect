@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
-
+import Receita from './Receita';
 
 export function Listar() {
-    const [titulo, setTitulo] = useState([]);
-    const [descricao, setDescricao] = useState([]);
+    const [receitas, setReceitas] = useState([]);
+
     
 
     useEffect(
@@ -23,9 +23,10 @@ export function Listar() {
                 .then(res => res.json())
                 .then(data => {
                     console.log(data)
-                    setTitulo(data.titulo)
-                    setDescricao(data.descricao)
+                    setReceitas(data)
+                    
                 })
+
 
 
         },
@@ -35,15 +36,12 @@ export function Listar() {
 
 
 
-return (
+return 
 
-        <div>
-            <h1></h1>
-
-        </div>
+        
     
 
 
 
 
-)}
+}

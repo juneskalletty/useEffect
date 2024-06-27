@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-export const navabar = () => {
+export const Navbar = () => {
   return (
     <>
       <nav className="navbar bg-body-tertiary">
